@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button:-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+body {
+  font-family: Lato; }
+
+.page {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100%; }
+
+.header {
+  background: url("../img/Layer 7.png") no-repeat center center;
+  width: 100%;
+  height: auto; }
+  .header .content {
+    padding: 0 0 680px 0px; }
+  .header .header__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .header .menu {
+    padding: 35px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .header .menu a {
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 2.6px;
+      color: #4d4959;
+      text-transform: uppercase; }
+    .header .menu a, .header .menu img {
+      padding-right: 94px; }
+      .header .menu a:last-child, .header .menu img:last-child {
+        padding-right: 0px; }
+
+.bigbody {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; }
+
+.bigbody__firstblock {
+  background-color: #f7f7f7; }
+  .bigbody__firstblock .content {
+    padding: 117px 260px 142px 260px; }
+  .bigbody__firstblock .firstblock__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .bigbody__firstblock .flex__img {
+    padding: 0 0 35px 0; }
+  .bigbody__firstblock .flex__title {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 3.6px;
+    color: #353738;
+    padding: 0 0 34px 0; }
+  .bigbody__firstblock .flex__subtitle {
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.89;
+    color: #848789; }
+
+.bigbody__secondblock {
+  position: relative; }
+  .bigbody__secondblock .secondblock__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .bigbody__secondblock .flex__bigimg {
+    background-image: url("../img/logo1.png"); }
+  .bigbody__secondblock .above__img {
+    position: absolute;
+    left: 477px;
+    top: 241px; }
+  .bigbody__secondblock .flex__img_and_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .bigbody__secondblock .img_and_text__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .bigbody__secondblock .img_and_text__text:after {
+      margin-top: 70px;
+      content: '';
+      display: inline-block;
+      position: relative;
+      height: 1px;
+      width: 50px;
+      background-color: #353738; }
+    .bigbody__secondblock .img_and_text__text .text__img {
+      padding: 35px 0 31px 0; }
+    .bigbody__secondblock .img_and_text__text .text__title {
+      font-family: Lato;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 3.6px;
+      color: #353738;
+      text-transform: uppercase;
+      padding: 0 0 26px 0; }
+    .bigbody__secondblock .img_and_text__text .text__subtitle {
+      text-align: justify;
+      padding: 0 70px 0 70px;
+      font-family: Lato;
+      font-size: 16px;
+      line-height: 1.88;
+      color: #848789;
+      max-height: 134px; }
+  .bigbody__secondblock .img_and_text__img {
+    position: relative; }
+    .bigbody__secondblock .img_and_text__img:before {
+      content: '';
+      position: absolute;
+      border: 20px solid transparent;
+      border-top: 20px solid white;
+      left: 250px; }
+
+.footer {
+  background-color: #f7f7f7; }
+  .footer .content {
+    padding: 99px 250px 103px 249px; }
+  .footer .footer__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+  .footer .address {
+    font-family: Lato;
+    font-style: italic;
+    line-height: 1.29;
+    color: #848789; }
+  .footer .address__city {
+    font-size: 16px;
+    font-weight: bold; }
+  .footer .sites a {
+    padding-right: 15px; }
+    .footer .sites a:last-child {
+      padding-right: 0px; }
+  .footer .craft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .footer .craft__by {
+    font-family: Lato;
+    font-style: italic;
+    line-height: 1.29;
+    color: #848789;
+    padding-right: 9px; }
